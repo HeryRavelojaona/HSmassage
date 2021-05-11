@@ -1,0 +1,51 @@
+.about {
+    font-family: 'Itim', cursive;
+    min-height: 60vh;
+    background: linear-gradient( $Beige, #fff);
+    padding: 50px 0;
+    h2{
+        color: $Saphirre;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.3em;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        margin: 40px auto;
+        width: 90%;
+        img {
+            width: 100%;
+        }
+        .content {
+            color: #fff;
+            background-color: rgba(56, 174, 204, 0.7);
+            bottom: 0;
+            height: 10vh;
+            position: absolute;
+            width: 100%;
+            border-radius: 0 0 10px 10px;
+            p{
+                text-align: center;
+                font-size: 1.5em;
+                width: 60%;
+                margin: 0 auto;
+                padding: 5px;
+            }
+        }
+    }
+    //Media queries
+    @media screen and (min-width: 768px) {
+        .about-item {
+            display: flex;
+        }
+        .item {
+            width: 30%;
+        }
+    }
+ 
+            
+}
