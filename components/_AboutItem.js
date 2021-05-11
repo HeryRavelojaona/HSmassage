@@ -12,7 +12,5 @@ export default function AboutItem(props){
                 <p className="text">{ text }</p>
             </div>
         </div>
-
-
     )
 }
