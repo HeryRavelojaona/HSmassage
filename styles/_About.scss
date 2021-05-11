@@ -17,6 +17,21 @@
         align-items: center;
         margin: 40px auto;
         width: 90%;
+        .text {
+            display: none;
+            transition: ease-in-out 0.2s;
+            
+        }
+        &:hover .content {
+            height: 100%; 
+        }
+        &:hover .text {
+            display: block;
+            text-align: justify;
+            font-size: 1.2em;
+            height: 20vh;
+            overflow: hidden;
+        }
         img {
             width: 100%;
         }
@@ -24,10 +39,19 @@
             color: #fff;
             background-color: rgba(56, 174, 204, 0.7);
             bottom: 0;
-            height: 10vh;
+            height: 12vh;
             position: absolute;
             width: 100%;
             border-radius: 0 0 10px 10px;
+            transition: ease-in-out .4s;
+            h3 {
+                text-align: center;
+                font-size: 1.5em;
+                height: 10vh;
+                width: 60%;
+                margin: 0 auto;
+                padding: 5px;
+            }
             p{
                 text-align: center;
                 font-size: 1.5em;
@@ -44,6 +68,11 @@
         }
         .item {
             width: 30%;
+            .content {
+                .text {
+                margin-top: 50px;
+                }
+            }
         }
     }
  
