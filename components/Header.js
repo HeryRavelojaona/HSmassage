@@ -4,7 +4,7 @@ import Logo from "../components/_Logo"
 export default function Header() {
     return (
         <div id="header">
-            <Social></Social>
+            <Social />
             <div className="title">
                 <p>Le bien être et la relaxation à portée de main</p>
                 <div className="main">
