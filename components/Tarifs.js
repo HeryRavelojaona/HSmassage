@@ -1,7 +1,10 @@
 export default function Tarifs(){
     return(
         <div className="tarifs">
-            Prix
+            <div className="title">
+                <h2>Tarifs</h2>
+            </div>
+            
         </div>
     )
 }

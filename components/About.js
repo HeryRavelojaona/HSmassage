@@ -21,7 +21,9 @@ export default function About(){
     }, [ posY ]) 
     return(
         <div className="about" ref={ aboutRef }>
-            <h2>Massages</h2>
+            <div className="title">
+                <h2>Massages</h2>
+            </div>
             <motion.div initial={{ opacity : 0 }} animate={{ opacity :aboutOpacity}} transition={{ duration: 2 }} className="about-item">
                 <AboutItem 
                     src="../images/dos.jpg" 

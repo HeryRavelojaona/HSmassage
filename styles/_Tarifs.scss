@@ -1,3 +1,18 @@
 .tarifs {
+    padding: 50px 0;
     min-height: 60vh;
+    background: linear-gradient( #fff, $Beige);
+    .title {
+        background-color: rgb(255, 227, 84, 0.8);
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .title h2 {
+        color: #046e8f;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.3em;
+    }
 }
