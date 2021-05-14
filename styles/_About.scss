@@ -3,6 +3,12 @@
     min-height: 60vh;
     background: linear-gradient( $Beige, #fff);
     padding: 50px 0;
+    .title {
+        background-color: rgb(255, 227, 84, 0.8);
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
     h2{
         color: $Saphirre;
         margin: 0;
