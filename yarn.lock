@@ -2416,10 +2416,10 @@
     "source-list-map" "^2.0.1"
     "source-map" "^0.6.1"
 
-"webpack@^4.27.0 || ^5.0.0", "webpack@^5.1.0":
-  "integrity" "sha512-XJumVnnGoH2dV+Pk1VwgY4YT6AiMKpVoudUFCNOXMIVrEKPUgEwdIfWPjIuGLESAiS8EdIHX5+TiJz/5JccmRg=="
-  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.36.2.tgz"
-  "version" "5.36.2"
+"webpack@^4.27.0 || ^5.0.0", "webpack@^5.1.0", "webpack@^5.37.0":
+  "integrity" "sha512-yvdhgcI6QkQkDe1hINBAJ1UNevqNGTVaCkD2SSJcB8rcrNNl922RI8i2DXUAuNfANoxwsiXXEA4ZPZI9q2oGLA=="
+  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.37.0.tgz"
+  "version" "5.37.0"
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.47"
